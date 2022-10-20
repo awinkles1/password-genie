@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(241, 241, 255);
+}
+
+h1, h2, footer {
+    text-align: center;
+    width: 80%;
+    margin: 2% auto;
+    color:black;
+    font-family: monospace;
+}
+h1 {
+    color: white;
+    margin-top: 5%;
+    padding-left:12.5%;
+    
+}
+#lamp {
+    width:7.5%;
+    padding-bottom: 2%;
+}
+#head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 2.5px;
+    margin: auto;
+    padding: 2%;
+    background-color: rgb(74, 4, 214);
+}
+#ups, #lows, #nums, #chars {
+    display: flex;
+    flex-direction: row;
+    padding-left: 45%;
+    color:black;
+}
+
+#length, #pwLength {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(74, 4, 214);
+    padding: 1%;
+    border-width: 0.5px;
+    border-radius: 2.5px;
+    color: white;
+}
+#output {
+    margin: auto;
+    text-align: center;
+}
+#pwOutput {
+    height: auto;
+    color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 30%;
+    margin: auto;
+    overflow-wrap: break-word;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+@media screen and (max-width: 800px) {
+    #ups, #lows, #nums, #chars {
+        padding-left: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #ups, #lows, #nums, #chars {
+        padding-left: 35%;
+    }
+}
